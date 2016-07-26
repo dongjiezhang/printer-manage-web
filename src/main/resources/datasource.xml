@@ -35,7 +35,7 @@
     </bean>
     <!-- 配置扫描Mapper接口的包路径 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.ishowly.printer.dao"/>
+        <property name="basePackage" value="com.ishowly.printer.web.dao"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactoryPrint"/>
     </bean>
 

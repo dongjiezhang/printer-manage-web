@@ -1,4 +1,4 @@
-package com.ishowly.printer;
+package com.ishowly.printer.web;
 
 import org.junit.Before;
 import org.junit.Test;
